@@ -10,8 +10,8 @@
     <remote name="eun"
                    fetch="https://github.com/eun0115"
                    clone-depth="1" />
-      <remote name="kharame-devices"
-                    fetch="https://github.com/KharaMe-devices"
+      <remote name="sp"
+                    fetch="https://github.com/PixelExperience"
                     clone-depth="1" />
     <remote name="yuzumi"
                     fetch="https://github.com/yuzumi86"
@@ -34,5 +34,5 @@
 
 
     <!-- Sepolicy -->
-    <project path="device/mediatek/sepolicy_vndr" name="PixelExperience/device_mediatek_sepolicy_vndr" remote="gh" revision="thirteen"/>
+    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="sp" revision="thirteen"/>
 </manifest>
